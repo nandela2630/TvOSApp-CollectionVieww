@@ -13,6 +13,8 @@
 		9A20A0EF1BA7E62A004E0CB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A20A0ED1BA7E62A004E0CB2 /* Main.storyboard */; };
 		9A20A0F11BA7E62D004E0CB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A20A0F01BA7E62D004E0CB2 /* Assets.xcassets */; };
 		9A20A0FC1BA7E62E004E0CB2 /* TvOSAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A20A0FB1BA7E62E004E0CB2 /* TvOSAppTests.swift */; };
+		9A20A10B1BA7F225004E0CB2 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A20A10A1BA7F225004E0CB2 /* MovieCell.swift */; };
+		9A340D0B1BA81299000D815A /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A340D0A1BA81299000D815A /* Movie.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		9A20A0F71BA7E62E004E0CB2 /* TvOSAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TvOSAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A20A0FB1BA7E62E004E0CB2 /* TvOSAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TvOSAppTests.swift; sourceTree = "<group>"; };
 		9A20A0FD1BA7E62E004E0CB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A20A10A1BA7F225004E0CB2 /* MovieCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		9A340D0A1BA81299000D815A /* Movie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,8 @@
 				9A20A0F01BA7E62D004E0CB2 /* Assets.xcassets */,
 				9A20A0F21BA7E62D004E0CB2 /* Info.plist */,
 				9A20A0EA1BA7E629004E0CB2 /* TvOSApp.xcdatamodeld */,
+				9A20A10A1BA7F225004E0CB2 /* MovieCell.swift */,
+				9A340D0A1BA81299000D815A /* Movie.swift */,
 			);
 			path = TvOSApp;
 			sourceTree = "<group>";
@@ -197,7 +203,9 @@
 			files = (
 				9A20A0EC1BA7E629004E0CB2 /* TvOSApp.xcdatamodeld in Sources */,
 				9A20A0E91BA7E628004E0CB2 /* ViewController.swift in Sources */,
+				9A20A10B1BA7F225004E0CB2 /* MovieCell.swift in Sources */,
 				9A20A0E71BA7E628004E0CB2 /* AppDelegate.swift in Sources */,
+				9A340D0B1BA81299000D815A /* Movie.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,6 +387,7 @@
 				9A20A1021BA7E62E004E0CB2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9A20A1031BA7E62E004E0CB2 /* Build configuration list for PBXNativeTarget "TvOSAppTests" */ = {
 			isa = XCConfigurationList;
@@ -387,6 +396,7 @@
 				9A20A1051BA7E62E004E0CB2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
