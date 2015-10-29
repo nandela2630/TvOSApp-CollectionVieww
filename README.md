@@ -14,7 +14,7 @@ and follow the instructions
 
 May my UiView not looks good , little bit weak in Autolayout so please have a look on urself
 
-I am sanjeev from India and my nickname is juju
+I am sanjeev  and my nickname is juju
 contact me @ sanju.nandela@gmail.com
-whatsapp No : 8500 726 736 
+
 
